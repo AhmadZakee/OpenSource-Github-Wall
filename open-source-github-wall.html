@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Source GitHub Wall</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+.wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #334155;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+.card a {
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+footer {
+    padding: 30px;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌍 Open Source GitHub Wall</h1>
+    <p>Projects That Changed the Tech World</p>
+</header>
+
+<section class="wall">
+
+    <div class="card">
+        <h2>React</h2>
+        <p>JavaScript library for building interactive user interfaces.</p>
+        <a href="https://github.com/facebook/react" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h2>TensorFlow</h2>
+        <p>Open-source machine learning framework for AI applications.</p>
+        <a href="https://github.com/tensorflow/tensorflow" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h2>Linux Kernel</h2>
+        <p>The core of Linux OS managing hardware and processes.</p>
+        <a href="https://github.com/torvalds/linux" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h2>VS Code</h2>
+        <p>Powerful open-source code editor developed by Microsoft.</p>
+        <a href="https://github.com/microsoft/vscode" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h2>Django</h2>
+        <p>High-level Python framework for rapid backend development.</p>
+        <a href="https://github.com/django/django" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h2>Bootstrap</h2>
+        <p>Popular CSS framework for building responsive websites.</p>
+        <a href="https://github.com/twbs/bootstrap" target="_blank">View on GitHub →</a>
+    </div>
+
+</section>
+
+<footer>
+    Built by Zakee Ahmad | Open Source Enthusiast 🚀
+</footer>
+
+</body>
+</html>
